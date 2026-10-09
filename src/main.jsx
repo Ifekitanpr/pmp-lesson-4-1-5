@@ -66,11 +66,11 @@ const quizOne = {
     "Scenario: A newly drafted risk management plan sets its own escalation triggers, separate from the escalation paths and thresholds the project established at initiation. What integration problem does this represent?",
   answers: [
     "A horizontal integration failure — the risk plan and schedule plan disagree on timing",
-    "A vertical integration failure — the risk plan isn't tracing back to the project's governance framework",
     "No integration problem — each subsidiary plan can define its own escalation rules",
+    "A vertical integration failure — the risk plan does not trace to project governance",
     "A progressive elaboration issue rather than an integration issue",
   ],
-  correct: 1,
+  correct: 2,
   correctFeedback:
     "Right — this is specifically a break in the upward connection to governance, which is what vertical integration is meant to catch. The plan is isolated from the framework it should be tracing back to.",
   incorrectFeedback:
@@ -82,7 +82,7 @@ const quizTwo = {
     'Scenario: A project manager finishes drafting all subsidiary plans in month one and considers the integrated project management plan "done" for the rest of the project. What\'s wrong with this view?',
   answers: [
     "Nothing — once all subsidiary plans exist, integration is complete",
-    "Integration is an ongoing responsibility — the plan must be updated and re-verified as new information, refinements, and learning emerge throughout the lifecycle",
+    "Integration continues as information and learning refine the plan",
     "The plans should have been integrated before month one, not during it",
     "Only the risk plan needs ongoing updates; the rest can stay fixed",
   ],
